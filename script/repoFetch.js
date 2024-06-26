@@ -4,7 +4,7 @@ function fetchReadme() {
     var readmeURL = 'https://api.github.com/repos/' + user + '/' + repo + '/readme';
     
     // Display loading message
-    $(".info-wrapper").html('<p>Loading README.md...</p>');
+    $(".info-wrapper").html('<p>In Making...</p>');
     
     $.get(readmeURL, function(data) {
         var readmeContent = atob(data.content);
