@@ -1,6 +1,7 @@
 @media (max-width: 1300px) {
     .featured-projects,
-    .repos-list-wrapper {
+    .repos-list-wrapper,
+    .info-wrapper {
         grid-template-columns: repeat(2, 1fr);
     }
 }
