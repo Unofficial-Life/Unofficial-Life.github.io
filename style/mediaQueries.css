@@ -70,7 +70,7 @@
 @media (max-width: 640px) {
     .page {
         margin-bottom: 3rem;
-        padding: 0;
+        padding: 8;
     }
 
     .logo-wrapper {
