@@ -5,11 +5,11 @@ function sleep(ms) {
 const subtitle = document.querySelector('#subtitle');
 
 function on() {
-    subtitle.innerText = "Ziad OUALHADJ_";
+    subtitle.innerText = "Unofficial Life_";
 }
 
 function off() {
-    subtitle.innerText = "Ziad OUALHADJ" + '\xa0';
+    subtitle.innerText = "Unofficial Life" + '\xa0';
 }
 
 function updateSubtitleStyling() {
