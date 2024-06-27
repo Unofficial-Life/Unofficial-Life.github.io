@@ -71,7 +71,7 @@
 @media (max-width: 640px) {
     .page {
         margin-bottom: 3rem;
-        padding: 8;
+        padding: 1rem;
     }
 
     .logo-wrapper {
@@ -79,7 +79,7 @@
     }
 
     .title-wrapper {
-        border-radius: 0;
+        border-radius: 20;
         height: 20rem;
     }
 
