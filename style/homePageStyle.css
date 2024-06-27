@@ -131,7 +131,9 @@
 }
 
 .featured-project-illustration {
-    height: 28rem;
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
