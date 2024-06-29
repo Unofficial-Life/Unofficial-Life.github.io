@@ -9,7 +9,7 @@ function fetchReadme() {
     $.get(readmeURL, function(data) {
         var readmeContent = atob(data.content);
         var readmeHTML = marked.parse(readmeContent);
-        $(".info-wrapper").html('<div class="repo-readme-wrapper"><h2>' + repo + '</h2>' + readmeHTML + '</div>');
+        $(".info-wrapper").html('<div class="repo-readme-wrapper"><h2><p align="center">' + repo + '</h2>' + readmeHTML + '</div>');
     }).fail(function(jqXHR, textStatus, errorThrown) {
         console.error("Error fetching README.md:", textStatus, errorThrown); // Log the error
         $(".info-wrapper").html('<p>Failed to fetch README.md for ' + repo + '.</p>');
